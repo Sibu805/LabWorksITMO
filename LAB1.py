@@ -16,7 +16,9 @@ def draw_flag(height, width, s_vertical, h_horizontal):
 
     for h in range(height):
         for w in range(width):
-             if h_start <= h < h_end:
+             if h_start <= h < h_end and s_start <= w < s_end:
+                 drawer(BLUE)
+             elif h_start <= h < h_end:
                  drawer(BLUE)
              elif s_start <= w < s_end:
                  drawer(BLUE)
@@ -29,10 +31,10 @@ def draw_flag(height, width, s_vertical, h_horizontal):
        
            
 def main():
-    height = 20
-    width = 30
-    s_vertical = 10
-    h_horizontal = 10
+    height = 11
+    width = 51
+    s_vertical = 3
+    h_horizontal = 1
 
     draw_flag(height, width, s_vertical, h_horizontal)
 
