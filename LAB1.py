@@ -33,8 +33,8 @@ def draw_flag(height, width, s_vertical, h_horizontal):
 def main():
     height = 11
     width = 51
-    s_vertical = 3
-    h_horizontal = 1
+    s_vertical = 5
+    h_horizontal = 2
 
     draw_flag(height, width, s_vertical, h_horizontal)
 
