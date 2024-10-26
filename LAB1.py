@@ -98,7 +98,6 @@ def percentage_diagram(sequence):
 
 if __name__ == "__main__":
     percentage_diagram("sequence.txt")
-    
 
 
     
