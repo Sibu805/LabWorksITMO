@@ -36,7 +36,7 @@ def main():
         if position > 10:
             position = 0
 
-        time.sleep(0.5)  
+        time.sleep(1)  
 
 if __name__ == "__main__":
     main()
