@@ -70,7 +70,7 @@ def drawer(percentage):
 
 def percentage_diagram(sequence):
 
-    conditions = [(-10, -5), (-5, 0), (0, 5), (5, 10)]
+    conditions = [(-10, -5), (5, 10)]
     condition_counts = {interval: 0 for interval in conditions}
 
     try:
